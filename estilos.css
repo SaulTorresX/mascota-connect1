@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #232121;
+    
+}
+
+header {
+    background-color: #007ee5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: aliceblue;
+
+    background-image: url(media/Imagenes/alvan-nee-T-0EW-SEbsE-unsplash.jpg), url(media/Imagenes/alvan-nee-T-0EW-SEbsE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: -x;
+}
+
+.texto-principal {
+    max-width: 50%;
+}
+
+.texto-principal h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.texto-principal p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.botones button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #007ee5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.carousel img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.acerca {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.acerca h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.acerca p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}

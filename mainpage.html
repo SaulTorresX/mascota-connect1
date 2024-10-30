@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MascotaConect</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!--Importar libreria de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script type="module" src="firebase.config.js"></script>
+
+    
+</head>
+<body>
+    <!-- Encabezado y menú de navegación -->
+    <header>
+        <div class="logo">
+            <h1>MascotaConect</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#acerca">Acerca de Nosotros</a></li>
+                <li><a href="#comenzar">Comenzar</a></li>
+                <li><a href="#registro">Registrarte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <section class="principal">
+        <div class="texto-principal">
+            <h2>Conéctate para ayudar a encontrar mascotas desaparecidas</h2>
+            <p>Un lugar seguro para compartir información sobre mascotas extraviadas y ayudar a reunir familias.</p>
+            <div class="botones">
+                <button onclick="location.href='#comenzar'">Comenzar</button>
+                <button onclick="location.href='#registro'">Registrarte</button>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- Sección Acerca de Nosotros -->
+    <section id="acerca" class="acerca">
+        <h3>Acerca de Nosotros</h3>
+        <p>Somos una comunidad dedicada a ayudar a las personas a encontrar a sus mascotas perdidas mediante la difusión de información relevante y en tiempo real. Únete a nuestra misión para hacer que cada mascota regrese a su hogar.</p>
+    </section>
+
+    <script src="script.js">
+
+        
+    </script>
+</body>
+</html>
